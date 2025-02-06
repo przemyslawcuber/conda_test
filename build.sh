@@ -7,8 +7,6 @@ echo "Starting building and installing..."
 mkdir -p build
 cd build
 
-PREFIX=$HOME
-
 cmake -G Ninja \
     -DCMAKE_BUILD_TYPE=Release \
     -DCMAKE_INSTALL_PREFIX=$PREFIX \
